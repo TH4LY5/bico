@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.logo{
+    font-family: Righteous;
+    text-align: center;
+    color: #FFB800;
+    font-size: 70px;
+    padding-top: 50px;
+}
+
+p, ion-label{
+    font-family: Righteous;
+}
+
+ion-label {
+    position: absolute;
+// left: 17.04%;
+// right: 16.67%;
+// top: 0%;
+// bottom: 72.13%;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+}
+
+
+.form_div{
+    // padding-top: 10px;
+     padding-right: 20px;
+     padding-left:20px ;
+    // padding-bottom: 40px;
+    ion-input{
+        border: none;
+        border-radius: 5px;
+        height: 45px;
+        --padding-start: 8px;
+        margin-bottom: 15px;
+        border-radius: 25px;
+        border: 2px solid #e8e8e8;
+    }
+
+    .forgot_lbl{
+        color: var(--ion-color-main);
+        display: block;
+        text-align: right;
+        font-family: 'regular';
+    }
+    .login_btn{
+        margin-top: 20px;
+        --background: linear-gradient(to right, var(--ion-color-main), var(--ion-color-main2));
+        --background: var(--ion-color-main);
+        --border-radius: 25px;
+        --background-activated-opacity : 0.2;
+        font-family: Righteous;
+    }
+
+    .or_lbl{
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+        font-family: Righteous;
+    }
+
+    .social_btn_div{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        justify-content: space-between;
+
+        .fb_btn{
+            border: 2px solid #e8e8e8;
+            border-radius: 25px;
+            color: black;
+            width: 150px;
+        }
+        .fb_icn{
+            color: #3A5998;
+        }
+        .google_btn{
+            color: black;
+            border: 2px solid #e8e8e8;
+            border-radius: 25px;
+            width: 150px;
+        }
+        .gp_icn{
+            color: #DE5549;
+        }
+    }
+}

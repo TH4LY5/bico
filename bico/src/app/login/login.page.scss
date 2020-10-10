@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.logo{
+    font-family: Righteous;
+    text-align: center;
+    color: #FFB800;
+    font-size: 100px;
+    padding-top: 120px;
+}
+
+ion-img {
+position: relative;
+width: 180px;
+height: 95px;
+margin: auto;
+//left: 90px;
+top: 120px;
+}
+
+.btLogin {
+position: absolute;
+width: 210px;
+height: 50px;
+margin: auto;
+//left: 75px;
+top: 20px;
+--background: linear-gradient(to right, var(--ion-color-main), var(--ion-color-main2));
+        --background: var(--ion-color-main);
+        --border-radius: 25px;
+        --background-activated-opacity : 0.2;
+        font-family: Righteous;
+}
+
+.btCadastro{
+position: absolute;
+width: 210px;
+height: 50px;
+margin: auto;
+padding-top: -0;
+//left: 75px;
+top: 140px;
+--background: linear-gradient(to right, var(--ion-color-main), var(--ion-color-main2));
+        --background: var(--ion-color-main);
+        --border-radius: 25px;
+        --background-activated-opacity : 0.2;
+        font-family: Righteous;
+
+}
+
+ion-button {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+border-radius: 60px;
+font-family: Righteous;
+}
