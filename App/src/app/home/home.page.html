@@ -1,20 +1,17 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content >
+  <h3 class="logo">bico</h3>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <div class="form_div">
+      <p style="text-align: center; font-size: 18px;">LOGIN</p>
+      <p style="font-size: 14px; text-align: center;">Qual é o seu número de celular?</p>
+      <ion-input type="tel" ></ion-input>
+      <p style="font-size: 14px; text-align: center;">Qual é a sua senha?</p>
+      <ion-input type="password" ></ion-input>
+
+      <ion-button class="login_btn" expand="block" color="primary" (click)="buscarServico()" >Continuar</ion-button>
+
+      <p style="padding-top: 40px; text-align: center; font-size: 14px; color: #FFB800;">Esqueci minha senha!</p>
+    </div>
+ 
 </ion-content>

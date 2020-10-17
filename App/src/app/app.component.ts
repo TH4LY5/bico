@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -10,10 +11,43 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
   styleUrls: ['app.component.scss']
 })
 export class AppComponent {
+  public selectedIndex = 0;
+  public appPages = [
+    {
+      title: 'Inicio',
+      url: '/buscar-servico',
+      icon: 'home'
+    },
+    {
+      title: 'Meu perfil',
+      url: '/meu-perfil',
+      icon: 'person'
+    },
+    // {
+    //   title: 'Segunda via de boleto',
+    //   url: '/boleto',
+    //   icon: 'document-text'
+    // },
+    {
+      title: 'Suporte',
+      url: '/suporte',
+      icon: 'help-circle'
+      
+    },
+    {
+      title: 'Sair',
+      url: '/login',
+      icon: 'exit'
+      
+    }
+  ];
+  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+
   constructor(
     private platform: Platform,
     private splashScreen: SplashScreen,
-    private statusBar: StatusBar
+    private statusBar: StatusBar,
+    private router: Router
   ) {
     this.initializeApp();
   }
@@ -23,5 +57,16 @@ export class AppComponent {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
+  }
+
+  ngOnInit() {
+    const path = window.location.pathname.split('folder/')[1];
+    if (path !== undefined) {
+      this.selectedIndex = this.appPages.findIndex(page => page.title.toLowerCase() === path.toLowerCase());
+    }
+  }
+
+  sair(){
+    this.router.navigate(['/login'])
   }
 }

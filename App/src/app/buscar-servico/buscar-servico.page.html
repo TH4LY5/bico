@@ -1,0 +1,24 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <h3 class="logo">bico</h3>
+
+  <div class="form_div">
+    <p style="text-align: center; font-size: 18px;">O que você precisa?</p>
+
+    <p style="font-size: 14px; text-align: center;">Selecione a categoria:</p>
+    <ion-input type="text"></ion-input>
+    <p style="font-size: 14px; text-align: center;">Selecione o serviço:</p>
+    <ion-input type="text"></ion-input>
+    <p style="font-size: 14px; text-align: center;">Filtrar resultados por:</p>
+    <ion-input type="text"></ion-input>
+    <ion-button class="login_btn" expand="block" color="primary" (click)="buscarServico()">Continuar</ion-button>
+
+  </div>
+
+</ion-content>

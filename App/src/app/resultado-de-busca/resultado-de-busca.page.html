@@ -1,0 +1,54 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="#FFB800">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <p style="color: #fff; text-align: right; font-size: 24px;">bico</p>
+  </ion-toolbar>
+
+  <div class="header-content">
+    <img
+      src="https://static.vecteezy.com/system/resources/previews/000/632/623/non_2x/tools-icon-symbol-sign-vector.jpg"
+      alt="">
+
+  </div>
+
+  <div class="cardInfo">
+    <ion-card>
+      <ion-card-content style="padding:5px">
+        <p style="font-size: 12px; text-align: center;">DETALHES DA BUSCA:</p>
+
+        <p style="font-size: 12px; text-align: left;">• Reformas e Reparos</p>
+        <p style="font-size: 12px; text-align: left;">• Bombeiro Hidráulico</p>
+        <p style="font-size: 12px; text-align: left;">• Avaliaçoes</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+</ion-header>
+
+<ion-content>
+
+  <div style="padding-top: 200px;">
+    <p style="text-align: center; font-size: 18px;">RESULTADOS</p>
+
+
+  </div>
+
+  <div class="listaResultados">
+    <ion-list>
+      <ion-item-sliding>
+        <ion-item>
+          <img src="https://png.pngtree.com/png-vector/20190321/ourmid/pngtree-vector-users-icon-png-image_856952.jpg"
+            alt="">
+          <ion-label>1,8 km <br> JUSSARA FÉLIX </ion-label>
+        </ion-item>
+        <ion-item-options side="end">
+          <ion-item-option (click)="abrirPerfil(item)">Ver</ion-item-option>
+        </ion-item-options>
+      </ion-item-sliding>
+
+    </ion-list>
+  </div>
+
+</ion-content>

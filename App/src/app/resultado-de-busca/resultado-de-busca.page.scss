@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+ion-header {
+    position: absolute;
+    // width: 360px;
+     height: 120px;
+    // left: 0px;
+  //  top: 0px;
+    
+    background: #FFB800;
+}
+
+// ion-toolbar {
+//     // position: absolute;
+//     // width: 360px;
+//     // height: 125px;
+//     // left: 0px;
+//   //  top: 0px;
+    
+//     background: #FFB800;
+// }
+
+p, ion-label{
+    font-family: Righteous;
+}
+.header-content{
+    position: relative;
+    width: 146px;  
+    height: 146px;
+    left: 20px;
+    top: -30px;
+
+
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 6px solid #fff;
+      margin-right: 14px;
+    }
+  
+    h2 {
+      //padding-left: 10px;
+      font-weight: 300;
+      color: #fff
+    }
+
+   
+  }
+.cardInfo{
+    position: relative;
+     width: 200px;  
+     height: 80px;
+    left: 100px;
+    top: -170px;
+  ion-card{
+        
+    background-color: #fff;
+    color: black;
+    }
+
+}
+
+
+.listaResultados {
+    img {
+        width: 50px;
+        height: 50px;
+        // border-radius: 50%;
+        // border: 7px solid #fff;
+        margin-right: 14px;
+      }
+    ion-label {
+        font-family: Righteous;
+    }
+}

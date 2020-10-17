@@ -17,4 +17,7 @@ export class LoginPage implements OnInit {
     this.router.navigate(['/cadastro']);
   }
 
+  login(){
+    this.router.navigate(['/home']);
+  }
 }

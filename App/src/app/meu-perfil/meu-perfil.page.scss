@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+ion-header {
+    position: absolute;
+    // width: 360px;
+     height: 120px;
+    // left: 0px;
+  //  top: 0px;
+    
+    background: #FFB800;
+}
+
+// ion-toolbar {
+//     // position: absolute;
+//     // width: 360px;
+//     // height: 125px;
+//     // left: 0px;
+//   //  top: 0px;
+    
+//     background: #FFB800;
+// }
+
+p, ion-label{
+    font-family: Righteous;
+}
+.header-content{
+    position: relative;
+    width: 146px;  
+    height: 146px;
+    left: 66px;
+    top: -30px;
+
+
+    img {
+      width: 146px;
+      height: 146px;
+      border-radius: 50%;
+      border: 7px solid #fff;
+      margin-right: 14px;
+    }
+  
+    h2 {
+      //padding-left: 10px;
+      font-weight: 300;
+      color: #fff
+    }
+  }
