@@ -21,6 +21,37 @@
 
 </ion-header>
 
-<ion-content>
 
+<ion-content style="top: 120px;">
+  <div class="main_content_div" style="top: 20px">
+    <div class="lower_div">
+      <span *ngFor="let msg of messages">
+        <div class="main_div_right" *ngIf="msg.side == 'right'">
+          <div class="msg_div">
+            <div class="inner_msg">
+              {{msg.msg}}
+            </div>
+          </div>
+          <div class="tri_right"></div>
+        </div>
+
+        <div class="main_div_left" *ngIf="msg.side == 'left'">
+          <div class="msg_div">
+            <div class="inner_msg">
+              {{msg.msg}}
+            </div>
+          </div>
+          <div class="tri_left"></div>
+        </div>
+      </span>
+    </div>
+  </div>
 </ion-content>
+<ion-footer>
+  <ion-toolbar color="#FFB800">
+    <div class="footer_div">
+      <ion-input type="text" placeholder="Digite uma mensagem"></ion-input>
+      <ion-icon class="send_btn" (click)="enviarMsg()" name="send-sharp"></ion-icon>
+    </div>
+  </ion-toolbar>
+</ion-footer>
