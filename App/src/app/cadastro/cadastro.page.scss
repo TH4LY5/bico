@@ -92,3 +92,33 @@ text-align: center;
         }
     }
 }
+
+.form_div_Radio{
+    // padding-top: 10px;
+  //   padding-right: 20px;
+   //  padding-left:20px ;
+    // padding-bottom: 40px;
+    ion-list {
+        height: 100%;
+        left: -200px;
+        ion-item {
+            position: relative;
+            height: 100%;
+            ion-label{
+                font-family: Righteous;
+            }
+        }
+    }
+   
+
+    .login_btn{
+        margin-top: 20px;
+        --background: linear-gradient(to right, var(--ion-color-main), var(--ion-color-main2));
+        --background: var(--ion-color-main);
+        --border-radius: 25px;
+        --background-activated-opacity : 0.2;
+        font-family: Righteous;
+    }
+
+ 
+    }

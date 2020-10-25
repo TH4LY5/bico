@@ -5,7 +5,7 @@ const routes: Routes = [
  
   {
     path: '',
-    redirectTo: 'login',
+    redirectTo: 'slider',
     pathMatch: 'full'
   },
   {
@@ -43,6 +43,10 @@ const routes: Routes = [
   {
     path: 'chat',
     loadChildren: () => import('./chat/chat.module').then( m => m.ChatPageModule)
+  },
+  {
+    path: 'slider',
+    loadChildren: () => import('./slider/slider.module').then( m => m.SliderPageModule)
   },
 
 ];

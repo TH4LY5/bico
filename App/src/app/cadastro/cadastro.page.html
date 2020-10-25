@@ -1,5 +1,5 @@
 
-<ion-content >
+<!-- <ion-content >
   <h3 class="logo">bico</h3>
 
     <div class="form_div">
@@ -14,4 +14,53 @@
 
     </div>
  
+</ion-content> -->
+
+
+<ion-content>
+  <div class="main_content_div">
+    <ion-slides pager="false">
+      <ion-slide>
+        <div class="form_div">
+          <h3 class="logo">bico</h3>
+          <p style="font-size: 14px; text-align: center;">Qual o seu nome completo?</p>
+          <ion-input type="text"></ion-input>
+          <p style="font-size: 14px; text-align: center;">Qual é o seu número de celular?</p>
+          <ion-input type="tel" ></ion-input>
+          <p style="font-size: 14px; text-align: center;">Qual é a sua data de nascimento?</p>
+          <ion-input type="text" ></ion-input>
+    
+          <ion-button class="login_btn" expand="block" color="primary" >Continuar</ion-button>
+    
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="form_div_Radio">
+          <h3 class="logo">bico</h3>
+
+            <ion-radio-group value="biff">
+
+              <ion-list-header style="text-align: center;">
+                <ion-label style="text-align: center;">Você é :</ion-label>
+              </ion-list-header>
+          
+              <ion-item>
+                <ion-label>Prestador de serviços</ion-label>
+                <ion-radio slot="start" value="biff"></ion-radio>
+              </ion-item>
+          
+              <ion-item>
+                <ion-label>Usuário de serviços</ion-label>
+                <ion-radio slot="start" value="griff"></ion-radio>
+              </ion-item>
+
+            </ion-radio-group>
+       
+    
+          <ion-button class="login_btn" expand="block" color="primary" >Continuar</ion-button>
+    
+        </div>
+      </ion-slide>
+    </ion-slides>
+  </div>
 </ion-content>
