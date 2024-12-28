@@ -41,7 +41,7 @@ O **Bico** é um aplicativo desenvolvido com **Angular** e **Ionic** para conect
 
 1. Clone o repositório:  
    \`\`\`bash
-   git clone https://github.com/seu-usuario/bico.git
+   git clone https://github.com/th4ly5/bico.git
    cd bico
    \`\`\`
 
