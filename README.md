@@ -93,7 +93,7 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 Para dúvidas, sugestões ou parcerias, entre em contato:  
 - **E-mail**: contato@bico.app  
-- **GitHub**: [Seu Usuário](https://github.com/th4ly5)  
+- **GitHub**: [Thalys](https://github.com/th4ly5)  
 
 ---
 
