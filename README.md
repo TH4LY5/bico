@@ -1,5 +1,3 @@
-# Criando o arquivo README.md para o aplicativo "Bico"
-bico_readme_content = """
 # Bico 🔧  
 
 O **Bico** é um aplicativo desenvolvido com **Angular** e **Ionic** para conectar pessoas que oferecem serviços rápidos e autônomos (os chamados "bicos") com quem precisa de ajuda em diversas áreas. Seja você pedreiro, faz-tudo, faxineira, mecânico, eletricista ou outro profissional, o Bico facilita a conexão entre quem presta e quem precisa de serviços, promovendo economia e praticidade.
